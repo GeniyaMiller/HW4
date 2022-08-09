@@ -19,10 +19,11 @@ public class Main {
         //Задание 2
         System.out.println();
         System.out.println("Задание 2");
+        int  firstFriday = 5;
 
-        for (int firstFriday = 5; firstFriday <= 31; firstFriday = firstFriday + 7)
+        for (int message = firstFriday; message <= 31; message = message + 7)
         {
-            System.out.println("Сегодня пятница, " + firstFriday+ "-е число. Необходимо подготовить отчет.");
+            System.out.println("Сегодня пятница, " + message + "-е число. Необходимо подготовить отчет.");
         }
 
         //Задание 3
@@ -32,7 +33,7 @@ public class Main {
         int year = 2022;
         int yearAgo200 = year - 200;
         int yearAfter100 = year + 100;
-        for (; aCometIsFlying<=2122; aCometIsFlying = aCometIsFlying + 79) {
+        for (; aCometIsFlying<=yearAfter100; aCometIsFlying = aCometIsFlying + 79) {
             if (aCometIsFlying > yearAgo200 && aCometIsFlying < yearAfter100) {
 
                 System.out.println(aCometIsFlying);
